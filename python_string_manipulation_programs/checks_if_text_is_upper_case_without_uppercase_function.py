@@ -7,3 +7,4 @@ for char in word:
         upper_case = False
         break
 #print result
+print('UPPER CASE??? :' , upper_case)
