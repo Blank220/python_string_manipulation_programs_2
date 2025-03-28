@@ -6,3 +6,4 @@ if word:
 else:
     result = word
 #print the result
+print('Capitalized text: ' , result)
