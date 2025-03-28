@@ -5,3 +5,4 @@ result = ''
 for word in words.split():
     result += word.capitalize() + ' '
 #print result
+print('Text in Title form: ' , result)
