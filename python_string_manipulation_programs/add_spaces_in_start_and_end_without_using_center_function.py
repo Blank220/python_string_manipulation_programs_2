@@ -5,3 +5,4 @@ lenght = int(input('Enter desired lenght: '))
 left_spaces = (lenght - len(word) // 2)
 word = ' ' * left_spaces + word
 #print result
+print('Centered Text: ' , word)
