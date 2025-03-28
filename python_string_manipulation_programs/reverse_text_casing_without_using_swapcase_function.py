@@ -10,3 +10,4 @@ for char in word:
     else:
         result += char
 #print result
+print('Text in reverse casing: ' , result)
