@@ -8,3 +8,4 @@ for char in word:
     else:
         result += char
 #print result
+print('Text in lower casing: ' , result)
