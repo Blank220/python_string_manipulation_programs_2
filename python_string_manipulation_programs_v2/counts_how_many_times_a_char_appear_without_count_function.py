@@ -7,3 +7,4 @@ for c in word:
     if c == char:
         count += 1
 #prints the number of times it appeared
+print(f'Number of times {char} appeared is {count} times')
