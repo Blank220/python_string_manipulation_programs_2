@@ -5,6 +5,6 @@ char = input('Enter character to find: ')
 for i in range(len(word)):
     if word[i] == char:
         print(f'{char} found at index {i}')
-    else:
-        print(f'{char} is not in text')
-#prints result
+        break
+else:
+    print(f'{char} is not in text')
