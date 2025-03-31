@@ -5,3 +5,4 @@ suffix = input('Enter suffix to be remove: ')
 if word.endswith(suffix):
     word = word[:-len(suffix)]
 #prints the result
+print('The Text Without Suffix Indicated: ', word)
