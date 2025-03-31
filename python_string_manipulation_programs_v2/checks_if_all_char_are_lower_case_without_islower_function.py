@@ -7,3 +7,4 @@ for char in word:
         is_lower = False
         break
 #prints the boolean result
+print('Text is lower case??? : ', is_lower)
