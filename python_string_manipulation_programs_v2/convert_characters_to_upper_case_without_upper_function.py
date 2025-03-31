@@ -7,5 +7,5 @@ for char in word:
         result += chr(ord(char) -32)
     else:
         result += char
-
 #prints the result, text in upper casing
+print('Text in all upper case: ', result)
