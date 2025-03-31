@@ -5,3 +5,4 @@ lenght = int(input('Enter desired lenght: '))
 if len(text) < lenght:
     text = '0' * (lenght -len(text)) + text
 #prints the result with zeros
+print('String after zero filling: ', text)
