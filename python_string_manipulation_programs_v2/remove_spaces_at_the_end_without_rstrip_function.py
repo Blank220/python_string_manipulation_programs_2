@@ -5,3 +5,4 @@ for i in range(len(word) -1, -1, -1):
     if word [i] != ' ':
         break
 #prints the result without spaces
+print('The text without trailing spaces: ' , word[:i+1])
